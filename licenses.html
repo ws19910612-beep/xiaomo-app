@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小沫 开源许可</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+line-height: 1.8;
+color: #1a1a2e;
+background: #fafafa;
+padding: 40px 20px;
+}
+.container { max-width: 800px; margin: 0 auto; }
+h1 { font-size: 28px; margin-bottom: 10px; color: #0f0f23; }
+h2 { font-size: 20px; margin: 30px 0 12px; color: #1a1a2e; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; }
+p { margin: 8px 0; }
+strong { color: #d63031; }
+ul { margin: 8px 0 8px 20px; }
+li { margin: 4px 0; font-size: 14px; }
+.meta { color: #888; font-size: 14px; margin-bottom: 24px; }
+.cols { columns: 2; column-gap: 24px; }
+.cols li { break-inside: avoid; }
+.lic { background: #f2f2f5; border-radius: 8px; padding: 14px 16px; font-size: 12.5px; line-height: 1.7; color: #444; white-space: pre-wrap; }
+.footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e0e0e0; color: #888; font-size: 14px; }
+@media (max-width: 600px) { body { padding: 20px 12px; } h1 { font-size: 22px; } .cols { columns: 1; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>小沫 · 开源软件许可</h1>
+<p class="meta"><strong>更新日期：2026年7月</strong></p>
+<p>本应用（iOS 端）基于以下开源软件构建，在此一并致谢。所有第三方组件均以其原始许可证授权，本应用严格遵守相关条款并保留各自版权声明。</p>
+
+<h2>一、许可证概览</h2>
+<ul>
+<li>MIT：本应用绝大多数依赖</li>
+<li>BSD-3-Clause：js-base64</li>
+<li>(MIT OR GPL-3.0-or-later)：jszip（本应用依约选择 MIT，不引入任何 GPL/copyleft 义务）</li>
+</ul>
+
+<h2>二、以 MIT 许可授权的组件</h2>
+<ul class="cols">
+<li>@expo/metro-runtime</li>
+<li>@expo/vector-icons</li>
+<li>@gorhom/bottom-sheet</li>
+<li>@legendapp/list</li>
+<li>@react-native-async-storage/async-storage</li>
+<li>@react-native-community/datetimepicker</li>
+<li>@react-native-community/slider</li>
+<li>@react-native-masked-view/masked-view</li>
+<li>@react-native-picker/picker</li>
+<li>@react-navigation/bottom-tabs</li>
+<li>@react-navigation/native</li>
+<li>@shopify/flash-list</li>
+<li>dayjs</li>
+<li>expo</li>
+<li>expo-asset</li>
+<li>expo-av</li>
+<li>expo-blur</li>
+<li>expo-build-properties</li>
+<li>expo-camera</li>
+<li>expo-clipboard</li>
+<li>expo-constants</li>
+<li>expo-crypto</li>
+<li>expo-document-picker</li>
+<li>expo-file-system</li>
+<li>expo-font</li>
+<li>expo-haptics</li>
+<li>expo-image</li>
+<li>expo-image-manipulator</li>
+<li>expo-image-picker</li>
+<li>expo-linear-gradient</li>
+<li>expo-linking</li>
+<li>expo-localization</li>
+<li>expo-navigation-bar</li>
+<li>expo-network</li>
+<li>expo-print</li>
+<li>expo-router</li>
+<li>expo-secure-store</li>
+<li>expo-sharing</li>
+<li>expo-speech</li>
+<li>expo-speech-recognition</li>
+<li>expo-splash-screen</li>
+<li>expo-sqlite</li>
+<li>expo-status-bar</li>
+<li>expo-system-ui</li>
+<li>expo-web-browser</li>
+<li>i18next</li>
+<li>llama.rn</li>
+<li>react</li>
+<li>react-dom</li>
+<li>react-i18next</li>
+<li>react-native</li>
+<li>react-native-gesture-handler</li>
+<li>react-native-keyboard-aware-scroll-view</li>
+<li>react-native-keyboard-controller</li>
+<li>react-native-markdown-display</li>
+<li>react-native-modal-datetime-picker</li>
+<li>react-native-qrcode-svg</li>
+<li>react-native-reanimated</li>
+<li>react-native-safe-area-context</li>
+<li>react-native-screens</li>
+<li>react-native-sse</li>
+<li>react-native-svg</li>
+<li>react-native-toast-message</li>
+<li>react-native-web</li>
+<li>react-native-webview</li>
+<li>react-native-worklets</li>
+<li>tailwind-merge</li>
+<li>tailwind-variants</li>
+<li>zod</li>
+<li>zustand</li>
+</ul>
+
+<h2>三、以 BSD-3-Clause 许可授权的组件</h2>
+<ul>
+<li>js-base64</li>
+</ul>
+
+<h2>四、双许可组件</h2>
+<ul>
+<li>jszip — (MIT OR GPL-3.0-or-later)，本应用依约选择 MIT 许可，不引入任何 GPL/copyleft 义务。</li>
+</ul>
+
+<h2>五、MIT License 全文</h2>
+<p class="lic">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h2>六、BSD-3-Clause License 全文</h2>
+<p class="lic">Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: (1) Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer; (2) Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution; (3) Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.</p>
+
+<h2>七、说明</h2>
+<p>以上所有软件名称、商标及版权均归其各自所有者所有。本应用另包含开发者自有模块（如 mnn-inference、scroll-velocity-clamp），版权归本公司所有。</p>
+
+<div class="footer">
+<p>&copy; 2026 南京星蓝图企业管理有限公司</p>
+</div>
+
+</div>
+</body>
+</html>
